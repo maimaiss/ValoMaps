@@ -16,7 +16,7 @@ function login(){
       }, 3000);
     }else{
         alert("Bem-vindo!")
-        location.assign('../home/home.html')
+        location.assign('../Home/home.html')
     }
 }
 
