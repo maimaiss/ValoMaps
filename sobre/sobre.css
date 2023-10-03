@@ -1,0 +1,157 @@
+@font-face {
+    font-family: Valorant;
+    src: url("../imagens/fonte/Valorant\ Font.ttf");
+}
+
+button {
+    background-color: #ff4655;
+    color: #1C1C1C;
+    font-size: 15px;
+    font-family: Valorant;
+    border: none;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+#home{
+    background-color: #fff;
+    padding: 7px 15px;
+    padding-top: 10px;
+    border-radius: 7px;
+    color: #1C1C1C;
+    position: absolute;
+    right: 0;
+    margin: 15px;
+    font-family: Valorant;
+    font-weight: lighter;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#valomaps {
+    color: #fff;
+    font-size: 25px;
+    font-family: Valorant;
+    padding-left: 5px;
+    text-shadow: 2px 2px 2px #1C1C1C;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.fotinha {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+/* Elementos da Pagina */
+
+body {
+    background-color: #1C1C1C;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    width: 20%;
+    gap: 0px;
+}
+
+#logo {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.cabecalho {
+    background-color: #ff4655;
+    margin: auto;
+    display: flex;
+    width: 100%;
+    height: 45px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#entrar {
+    background-color: #fff;
+    padding: 7px 15px;
+    padding-top: 10px;
+    border-radius: 7px;
+    color: #1C1C1C;
+    position: absolute;
+    right: 0;
+    margin: 15px;
+    font-family: Valorant;
+    font-weight: lighter;
+}
+
+p {
+    color: #fff;
+    font-size: 20px;
+    padding-left: 10px;
+    text-shadow: 2px 2px 2px #1C1C1C;
+}
+
+.mapas {
+    align-items: center;
+    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ff4655;
+    border-radius: 7px;
+    padding: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Valorant;
+    color: #fff;
+    text-shadow: 2px 2px 2px #1C1C1C;
+    text-align: center;
+}
+
+.descricao {
+    font-size: 18px;
+    font-weight:lighter;
+    margin-top: 15px;
+}
+
+hr {
+    margin: auto;
+    display: flex;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: #ff4655;
+    margin: auto;
+    display: flex;
+    width: 100%;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a{
+    color: #fff;
+    font-size: 15px;
+    text-shadow: none;
+    padding-left: 0px;
+    text-decoration: none;
+    font-family: Valorant;
+}
+
+.footer{
+    font-family: Valorant;
+    font-size: 15px;
+}

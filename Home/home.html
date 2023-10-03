@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="home.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="cabecalho">
+        <img id="logo" src="../imagens/Logo.png">
+        <p id="valomaps"> ValoMaps </p>
+        <button id="entrar" onclick="window.location.href='../sobre/sobre.html'"> Sobre nos </button>
+    </div>
+
+    <div id="app">
+
+        <body>
+            <div class="carousel">
+                <div class="carousel-item" onclick="redirectToSection('#Ascent')">
+                    <img class="foto-mapa" src="../imagens/mapas/Ascent.png" alt="Ascent">
+                </div>
+
+                <div class="carousel-item" onclick="redirectToSection('#Bind')">
+                    <img src="../imagens/mapas/Bind.png" alt="Bind">
+                </div>
+
+                <div class="carousel-item" onclick="redirectToSection('#Breeze')">
+                    <img src="../imagens/mapas/Breeze.png" alt="Breeze">
+                </div>
+
+                <div class="carousel-item" onclick="redirectToSection('#Fracture')">
+                    <img src="../imagens/mapas/Fracture.png" alt="Fracture">
+                </div>
+
+                <div class="carousel-item" onclick="redirectToSection('#Haven')">
+                    <img src="../imagens/mapas/Haven.png" alt="Haven">
+                </div>
+
+                <div class="carousel-item" onclick="redirectToSection('#Icebox')">
+                    <img src="../imagens/mapas/Icebox.png" alt="Icebox">
+                </div>
+
+                <div class="carousel-item" onclick="redirectToSection('#Lotus')">
+                    <img src="../imagens/mapas/Lotus.png" alt="Lotus">
+                </div>
+
+                <div class="carousel-item" onclick="redirectToSection('#Pearl')">
+                    <img src="../imagens/mapas/Pearl.png" alt="Pearl">
+                </div>
+
+                <div class="carousel-item" onclick="redirectToSection('#Split')">
+                    <img src="../imagens/mapas/Split.png" alt="Split">
+                </div>
+
+                <div class="carousel-item" onclick="redirectToSection('#Sunset')">
+                    <img src="../imagens/mapas/Sunset.png" alt="Sunset">
+                </div>
+            </div>
+    </div>
+
+    <hr color="#fff">
+
+    <div id="Ascent" class="mapas">
+        <h2>01. ASCENT</h2>
+        <p class="descricao"> Com várias opções de posicionamento e conflito, um territorio aberto divide duas áreas em
+            Ascent: Cada uma
+            pode ser fortificada por
+            portas explosivas irreversiveis que, quando derrubadas, forçam as equipes a destruí-las ou a acharem outra
+            maneira de prosseguir.
+            Não deixe que o inimigo tome o seu território.
+        </p>
+
+        <button id="b01" class="botao-agentes">Agentes recomendados</button>
+        <div class="agentes" id="q01" class="div-agentes">
+
+            <p class="classes">Duelistas</p>
+            <div class="dropdown">
+                <img class="fotinha" src="../imagens/icons/Jett_icon.png" alt="jett">
+                <div class="dropdown-content">
+                    <div class="desc">
+                        A jett é muito útil para domínio de espaço, ela consegue utilizar seu dash junto com sua smoke
+                        para avanços rápidos. Além disso, o mapa é de duas alturas, então sua movimentação é muito útil
+                        para obter vantagem sobre seus inimigos.
+                    </div>
+                </div>
+            </div>
+
+            <p class="classes">Controladores</p>
+            <div class="dropdown">
+                <img class="fotinha" src="../imagens/icons/Astra_icon.png" alt="astra">
+                <div class="dropdown-content">
+                    <div class="desc">
+                        A Astra tem uma excelente capacidade de ajudar o time onde quer que ela esteja, considerando que ela consegue smokar e dar todo um suporte pelo seu mapa astral, alcançando todo o mapa.
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <img class="fotinha" src="../imagens/icons/Omen_icon.png" alt="omen">
+                <div class="dropdown-content">
+                    <div class="desc">
+                        O Omen tem um controle de mapa incrível no ascent, podendo smokar todos os pontos, e sua
+                        habilidade mais
+                        efetiva é a Paronia (bang), muito efetiva em diversos espaços para domínio.
+                    </div>
+                </div>
+            </div>
+            <p class="classes">Iniciadores</p>
+            <div class="dropdown">
+                <img class="fotinha" src="../imagens/icons/Kayo_icon.png" alt="kayo">
+                <div class="dropdown-content">
+                    <div class="desc">
+                        O Kayo tem excelentes bangs nesse mapa para fazer batidas em diversas áreas juntamente com sua
+                        Jett. Outra habilidade efetiva é a sua faca, que além de trazer informação, ainda deixa os
+                        inimigos "suprimidos", ou
+                        seja, sem poder usar habilidades.
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <img class="fotinha" src="../imagens/icons/Sova_icon.png" alt="sova">
+                <div class="dropdown-content">
+                    <div class="desc">
+                        O Sova tem o drone que limpa muitos espaços, e como a ascent tem muitos cantos para conferir,
+                        sua
+                        flecha reveladora é de extrema importância.
+                    </div>
+                </div>
+            </div>
+            <p class="classes">Sentinelas</p>
+            <div class="dropdown">
+                <img class="fotinha" src="../imagens/icons/Cypher_icon.png" alt="cypher">
+                <div class="dropdown-content">
+                    <div class="desc">
+                        O Cypher tem um papel crucial para trazer informação para seu time, com sua camera e seus fios, ele consegue localizar inimigos pelo mapa, podendo se locomover livremente sem se preocupar em desativar seus aparelhos.
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <img class="fotinha" src="../imagens/icons/Killjoy_icon.png" alt="killjoy">
+                <div class="dropdown-content" style="min-width: 350px;">
+                    <div class="desc">
+                        A Killjoy é um ponto essencial para essa composição, na defesa ela consegue segurar muitas áreas
+                        sozinha e
+                        pegar informações inimigas, além de poder "molotovar" a entrada dos bombs com suas granadas. A
+                        Killjoy no ataque
+                        funciona como um pilar, fazendo o famoso "costinha" e chamando rotações. Além disso sua ultimate
+                        é
+                        uma das mais fortes do jogo.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <hr color="#fff">
+
+    <div id="Bind" class="mapas">
+        <h2>02. BIND</h2>
+        <p class="descricao"> Dois pontos. Nenhuma área no meio. Você precisa escolher: direita ou esquerda? E aí, qual
+            vai ser? Ambos os
+            lados oferecem caminhos diretos para os atacantes, e dois teleportadores de sentido único facilitam o
+            flanqueamento.
+        </p>
+
+        <button id="b02" class="botao-agentes">Agentes recomendados</button>
+        <div class="agentes" id="q02">
+            <p class="classes">Duelistas</p>
+            <img class="fotinha" src="../imagens/icons/Raze_icon.png" alt="raze">
+            <img class="fotinha" src="../imagens/icons/Reyna_icon.png" alt="reyna">
+            <p class="classes">Controladores</p>
+            <img class="fotinha" src="../imagens/icons/Astra_icon.png" alt="astra">
+            <img class="fotinha" src="../imagens/icons/Brimstone_icon.png" alt="brimstone">
+            <img class="fotinha" src="../imagens/icons/Viper_icon.png" alt="viper">
+            <p class="classes">Iniciadores</p>
+            <img class="fotinha" src="../imagens/icons/Fade_icon.png" alt="fade">
+            <img class="fotinha" src="../imagens/icons/Skye_icon.png" alt="skye">
+            <p class="classes">Sentinelas</p>
+            <img class="fotinha" src="../imagens/icons/Killjoy_icon.png" alt="killjoy">
+            <img class="fotinha" src="../imagens/icons/Sage_icon.png" alt="sage">
+        </div>
+    </div>
+
+    <hr color="#fff">
+
+    <div id="Brezze" class="mapas">
+        <h2>03. BREEZE</h2>
+        <p class="descricao"> Conheça as ruínas históricas ou visite as grutas deste paraíso tropical. Mas é bom se
+            cobrir,
+            pois temos espaços muito
+            abertos e embates de longa distância. Cuide dos seus flancos e você poderá curtir a brisa do Breeze.
+        </p>
+
+        <button id="b03">Agentes recomendados</button>
+        <div class="agentes" id="q03">
+            <p class="classes">Duelistas</p>
+            <img class="fotinha" src="../imagens/icons/Jett_icon.png" alt="jett">
+            <img class="fotinha" src="../imagens/icons/Neon_icon.png" alt="neon">
+            <p class="classes">Controladores</p>
+            <img class="fotinha" src="../imagens/icons/Harbor_icon.png" alt="harbor">
+            <img class="fotinha" src="../imagens/icons/Viper_icon.png" alt="viper">
+            <p class="classes">Iniciadores</p>
+            <img class="fotinha" src="../imagens/icons/Kayo_icon.png" alt="kayo">
+            <img class="fotinha" src="../imagens/icons/Skye_icon.png" alt="skye">
+            <img class="fotinha" src="../imagens/icons/Sova_icon.png" alt="sova">
+            <p class="classes">Sentinelas</p>
+            <img class="fotinha" src="../imagens/icons/Cypher_icon.png" alt="cypher">
+        </div>
+
+    </div>
+
+    <hr color="#fff">
+
+    <div id="Fracture" class="mapas">
+        <h2>04. FRACTURE</h2>
+        <p class="descricao"> Um local de pesquisas altamente confidencial partido ao meio por um experimento com
+            Radianita
+            malsucedido.
+            Com opções tão divididas. Quanto o próprio mapa para os defensores, a escolha é sua: encare os atacantes na
+            própria base deles ou
+            prepare o terreno para um ataque iminente.
+        </p>
+
+        <button id="b04">Agentes recomendados</button>
+        <div class="agentes" id="q04">
+            <p class="classes">Duelistas</p>
+            <img class="fotinha" src="../imagens/icons/Neon_icon.png" alt="neon">
+            <img class="fotinha" src="../imagens/icons/Raze_icon.png" alt="raze">
+            <p class="classes">Controladores</p>
+            <img class="fotinha" src="../imagens/icons/Brimstone_icon.png" alt="brimstone">
+            <p class="classes">Iniciadores</p>
+            <img class="fotinha" src="../imagens/icons/Breach_icon.png" alt="breach">
+            <img class="fotinha" src="../imagens/icons/Kayo_icon.png" alt="kayo">
+            <img class="fotinha" src="../imagens/icons/Skye_icon.png" alt="skye">
+            <p class="classes">Sentinelas</p>
+            <img class="fotinha" src="../imagens/icons/Cypher_icon.png" alt="cypher">
+            <img class="fotinha" src="../imagens/icons/Killjoy_icon.png" alt="killjoy">
+        </div>
+
+    </div>
+
+    <hr color="#fff">
+
+    <div id="Haven" class="mapas">
+        <h2>05. HAVEN</h2>
+        <p class="descricao"> Sob um mosteiro abandonado, é possível ouvir agentes se enfrentando pelo controle de três
+            pontos distintos.
+            Neste mapa, há mais áreas para controlar. Em compensação, os defensores também conseguem aproveitar o
+            território
+            extra para coordenar
+            investidas mais agressivas.
+        </p>
+
+        <button id="b05">Agentes recomendados</button>
+        <div class="agentes" id="q05">
+            <p class="classes">Duelistas</p>
+            <img class="fotinha" src="../imagens/icons/Jett_icon.png" alt="jett">
+            <img class="fotinha" src="../imagens/icons/Raze_icon.png" alt="raze">
+            <p class="classes">Controladores</p>
+            <img class="fotinha" src="../imagens/icons/Astra_icon.png" alt="astra">
+            <img class="fotinha" src="../imagens/icons/Omen_icon.png" alt="omen">
+            <p class="classes">Iniciadores</p>
+            <img class="fotinha" src="../imagens/icons/Breach_icon.png" alt="breach">
+            <img class="fotinha" src="../imagens/icons/Fade_icon.png" alt="fade">
+            <img class="fotinha" src="../imagens/icons/Sova_icon.png" alt="sova">
+            <img class="fotinha" src="../imagens/icons/Gekko_icon.png" alt="gekko">
+            <p class="classes">Sentinelas</p>
+            <img class="fotinha" src="../imagens/icons/Killjoy_icon.png" alt="killjoy">
+        </div>
+
+    </div>
+
+    <hr color="#fff">
+
+    <div id="Icebox" class="mapas">
+        <h2>06. ICEBOX</h2>
+        <p class="descricao"> Seu próximo campo de batalha será uma área de escavação secreta da Kingdom retomada pela
+            força
+            do Ártico.
+            Você precisará ter cuidado com os terrenos horizontais dos dois pontos principais, que são protegidos por
+            neve e
+            metal.
+            Aproveite para usar as tirolesas, e seus inimigos nunca verão seu ataque iminente.
+        </p>
+
+        <button id="b06">Agentes recomendados</button>
+        <div class="agentes" id="q06">
+            <p class="classes">Duelistas</p>
+            <img class="fotinha" src="../imagens/icons/Jett_icon.png" alt="jett">
+            <img class="fotinha" src="../imagens/icons/Reyna_icon.png" alt="reyna">
+            <p class="classes">Controladores</p>
+            <img class="fotinha" src="../imagens/icons/Harbor_icon.png" alt="harbor">
+            <img class="fotinha" src="../imagens/icons/Viper_icon.png" alt="viper">
+            <p class="classes">Iniciadores</p>
+            <img class="fotinha" src="../imagens/icons/Kayo_icon.png" alt="kayo">
+            <img class="fotinha" src="../imagens/icons/Sova_icon.png" alt="sova">
+            <p class="classes">Sentinelas</p>
+            <img class="fotinha" src="../imagens/icons/Killjoy_icon.png" alt="killjoy">
+            <img class="fotinha" src="../imagens/icons/Sage_icon.png" alt="sage">
+        </div>
+
+    </div>
+
+    <hr color="#fff">
+
+    <div id="Lotus" class="mapas">
+        <h2>07. LOTUS</h2>
+        <p class="descricao"> Uma estrutura misteriosa com um conduíte astral irradia poder ancestral. Grandes portas de
+            pedra oferecem várias
+            oportunidades de movimentação e revelam caminhos para três locais enigmáticos.
+        </p>
+
+        <button id="b07">Agentes recomendados</button>
+        <div class="agentes" id="q07">
+            <p class="classes">Duelistas</p>
+            <img class="fotinha" src="../imagens/icons/Jett_icon.png" alt="jett">
+            <img class="fotinha" src="../imagens/icons/Neon_icon.png" alt="neon">
+            <img class="fotinha" src="../imagens/icons/Raze_icon.png" alt="raze">
+            <p class="classes">Controladores</p>
+            <img class="fotinha" src="../imagens/icons/Omen_icon.png" alt="omen">
+            <img class="fotinha" src="../imagens/icons/Viper_icon.png" alt="viper">
+            <p class="classes">Iniciadores</p>
+            <img class="fotinha" src="../imagens/icons/Skye_icon.png" alt="skye">
+            <img class="fotinha" src="../imagens/icons/Sova_icon.png" alt="sova">
+            <p class="classes">Sentinelas</p>
+            <img class="fotinha" src="../imagens/icons/Cypher_icon.png" alt="cypher">
+            <img class="fotinha" src="../imagens/icons/Killjoy_icon.png" alt="killjoy">
+        </div>
+
+    </div>
+
+    <hr color="#fff">
+
+    <div id="Pearl" class="mapas">
+        <h2>08. PEARL</h2>
+        <p class="descricao"> Atacantes avançam em direção aos Defensores neste vibrante mapa subaquático com dois
+            pontos
+            principais.
+            Pearl é um mapa sem mecânicas focado no ambiente. Encare a batalha em um Meio compacto ou em áreas mais
+            alongadas no nosso
+            primeiro mapa situado na Terra Ômega.
+        </p>
+
+        <button id="b08">Agentes recomendados</button>
+        <div class="agentes" id="q08">
+            <p class="classes">Duelistas</p>
+            <img class="fotinha" src="../imagens/icons/Jett_icon.png" alt="jett">
+            <img class="fotinha" src="../imagens/icons/Neon_icon.png" alt="neon">
+            <p class="classes">Controladores</p>
+            <img class="fotinha" src="../imagens/icons/Astra_icon.png" alt="astra">
+            <img class="fotinha" src="../imagens/icons/Harbor_icon.png" alt="harbor">
+            <img class="fotinha" src="../imagens/icons/Viper_icon.png" alt="viper">
+            <p class="classes">Iniciadores</p>
+            <img class="fotinha" src="../imagens/icons/Fade_icon.png" alt="fade">
+            <img class="fotinha" src="../imagens/icons/Skye_icon.png" alt="skye">
+            <p class="classes">Sentinelas</p>
+            <img class="fotinha" src="../imagens/icons/Killjoy_icon.png" alt="killjoy">
+        </div>
+
+    </div>
+
+    <hr color="#fff">
+
+    <div id="Split" class="mapas">
+        <h2>09. SPLIT</h2>
+        <p class="descricao"> Se quiser avançar, é preciso subir. Separados por uma área central elevada, dois pontos
+            fornecem movimentação
+            rápida com duas cordas ascendentes. Cada ponto tem uma torre imponente que é vital para o controle da área.
+            E não se esqueça: mantenha
+            os olhos abertos e focados nas áreas elevadas antes que tudo vá pelos ares.
+        </p>
+
+        <button id="b09">Agentes recomendados</button>
+        <div class="agentes" id="q09">
+            <p class="classes">Duelistas</p>
+            <img class="fotinha" src="../imagens/icons/Jett_icon.png" alt="jett">
+            <img class="fotinha" src="../imagens/icons/Raze_icon.png" alt="raze">
+            <p class="classes">Controladores</p>
+            <img class="fotinha" src="../imagens/icons/Astra_icon.png" alt="astra">
+            <img class="fotinha" src="../imagens/icons/Omen_icon.png" alt="omen">
+            <img class="fotinha" src="../imagens/icons/Viper_icon.png" alt="viper">
+            <p class="classes">Iniciadores</p>
+            <img class="fotinha" src="../imagens/icons/Breach_icon.png" alt="breach">
+            <img class="fotinha" src="../imagens/icons/Fade_icon.png" alt="fade">
+            <img class="fotinha" src="../imagens/icons/Skye_icon.png" alt="skye">
+            <img class="fotinha" src="../imagens/icons/Gekko_icon.png" alt="gekko">
+            <p class="classes">Sentinelas</p>
+            <img class="fotinha" src="../imagens/icons/Cypher_icon.png" alt="cypher">
+            <img class="fotinha" src="../imagens/icons/Killjoy_icon.png" alt="killjoy">
+            <img class="fotinha" src="../imagens/icons/Sage_icon.png" alt="sage">
+        </div>
+    </div>
+
+    <hr color="#fff">
+
+    <div id="Sunset" class="mapas">
+        <h2>10. SUNSET</h2>
+        <p class="descricao">Um ambiente misto entre urbano e natural, é repleto de desafios táticos com ruas sinuosas e prédios altos. Os tons alaranjados do céu adicionam atmosfera especial às partidas. Os jogadores enfrentam desafios variados em alturas e ângulos de tiro com espaços amplos e combates de média a longa distância.
+        </p>
+
+        <button id="b10">Agentes recomendados</button>
+        <div class="agentes" id="q10">
+            <p class="classes">Duelistas</p>
+            <img class="fotinha" src="../imagens/icons/Jett_icon.png" alt="jett">
+            <img class="fotinha" src="../imagens/icons/Raze_icon.png" alt="raze">
+            <p class="classes">Controladores</p>
+            <img class="fotinha" src="../imagens/icons/Astra_icon.png" alt="astra">
+            <img class="fotinha" src="../imagens/icons/Omen_icon.png" alt="omen">
+            <img class="fotinha" src="../imagens/icons/Viper_icon.png" alt="viper">
+            <p class="classes">Iniciadores</p>
+            <img class="fotinha" src="../imagens/icons/Breach_icon.png" alt="breach">
+            <img class="fotinha" src="../imagens/icons/Skye_icon.png" alt="skye">
+            <img class="fotinha" src="../imagens/icons/Kayo_icon.png" alt="kayo">
+            <p class="classes">Sentinelas</p>
+            <img class="fotinha" src="../imagens/icons/Cypher_icon.png" alt="cypher">
+            <img class="fotinha" src="../imagens/icons/Killjoy_icon.png" alt="killjoy">
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p class="footer">
+            Copiright &copy; 2023 - ValoMaps
+        </p>
+    </footer>
+
+    <script src="carrossel.js"></script>
+    <script src="agentes.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Home</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="cadastro.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <div class="cabecalho">
+    <img id="logo" src="../imagens/Logo.png">
+    <p id="valomaps"> ValoMaps </p>
+  </div>
+
+  <div id="gekko">
+    <img
+      src="../imagens/keyArt/keyArt_Gekko.png"
+      alt="Gekko">
+  </div>
+
+  <header>
+    <h1>Cadastro</h1>
+  </header>
+
+  <main>
+    <input type="text" name="" id="nome" placeholder="Nome de Usuário">
+    <p class="aviso" id="alertaNome"></p>
+
+    <input type="text" name="" id="email" placeholder="Email">
+    <p class="aviso" id="alertaEmail"></p>
+
+    <input type="text" name="" id="senha" placeholder="Senha">
+    <p class="aviso" id="alertaSenha"></p>
+
+    <label for="nascimento">Data de nascimento:</label>
+    <input type="date" id="nascimento" name="" min="1930-01-01" max="2014-01-01" placeholder="Data de nascimento:">
+    <p class="aviso" id="alertaNascimento"></p>
+
+    <button onclick="cadastrar()"> Cadastrar </button>
+
+    <button id="conta" onclick="window.location.href='../login/login.html'"> Já tem uma conta? </button>
+  </main>
+
+  <div id="jett">
+    <img
+      src="../imagens/keyArt/keyArt_Jett.png"
+      alt="Jett">
+  </div>
+
+  <script src="cadastro.js"></script>
+
+</body>
+
+</html>

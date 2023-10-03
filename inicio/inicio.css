@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Valorant;
+    src: url("../imagens/fonte/Valorant\ Font.ttf");
+}
+
+body {
+    background-image: url(../imagens/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p {
+    font-family: Valorant;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 10px;
+    text-shadow: 5px 5px 5px #1C1C1C;
+    margin-left: 10%;
+    margin-right: 50%;
+    margin-top: 45px;
+    font-size: 23px;
+}
+
+h1 {
+    font-family: Valorant;
+    text-align: flex;
+    color: #fff;
+    text-shadow: 5px 5px 5px #1C1C1C;
+    margin-left: 10%;
+    margin-top: 220px;
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+
+#entrar {
+    background-color: #fff;
+    padding: 24px 58px;
+    padding-top: 27px;
+    border-radius: 15px;
+    color: #1C1C1C;
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 30%;
+    font-family: Valorant;
+    font-size: 16px;
+}
+
+#cadastro {
+    background-color: #1C1C1C;
+    ;
+    padding: 24px 87px;
+    padding-top: 27px;
+    border-radius: 15px;
+    color: #fff;
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 10%;
+    font-family: Valorant;
+    font-size: 16px;
+}
