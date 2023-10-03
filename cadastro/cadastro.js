@@ -28,7 +28,7 @@ function cadastrar() {
       usuarios.push(usuario);
       localStorage.setItem('cadastrados', JSON.stringify(usuarios));
       alert('Cadastro realizado!');
-      location.assign('../login/login.html');
+      location.assign('../Home/home.html');
     } else {
       document.getElementById('alertaNome').innerHTML = 'O Nome de Usuário já está em uso! Tente outro nome';
       document.getElementById('alertaNome').style.color = '#ece8e1';
