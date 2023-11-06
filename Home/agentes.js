@@ -1,5 +1,6 @@
+//JS de estilo
 $(document).ready(() => {
-
+  
   // abertura da descrição dos agentes
 
   $('#b01').click(() => {
