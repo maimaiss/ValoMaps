@@ -17,7 +17,9 @@ function cadastrar() {
   let guardaSenha = document.getElementById('senha').value;
   let guardaEmail = document.getElementById('email').value;
   let guardaNascimento = document.getElementById('nascimento').value;
+
   let usuario = { nome: guardaNome, senha: guardaSenha, email: guardaEmail, nascimento: guardaNascimento, dataCadastro: new Date().toLocaleDateString('pt-BR') };
+  
   if (
     guardaNome.trim().length >= 3 &&
     guardaSenha.trim().length >= 6 && guardaSenha.trim().length <= 15 &&
