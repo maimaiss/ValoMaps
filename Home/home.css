@@ -201,13 +201,13 @@ footer a{
 .dropdown-content {
     display: none;
     position: absolute;
-    /*background-color: #f9f9f9; */
-    background-color: #ece8e1;
-    min-width: 275px;
+    background-color: #b1b8cc;
+    min-width: 350px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    margin-left: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 15px;
+    padding-left: 0px;
     border-radius: 0px 7px 0px 7px;
 
     left: 100%; /* posiciona o dropdown à direita */
