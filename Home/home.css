@@ -26,7 +26,7 @@
 }
 
 button {
-    background-color: #ff4655;
+    background-color: #7042d8;
     color: #1C1C1C;
     font-size: 15px;
     font-family: Valorant;
@@ -88,7 +88,8 @@ button {
 /* Elementos da Pagina */
 
 body {
-    background-color: #1C1C1C;
+    /* background-color: #1C1C1C; */
+    background-color: #0e1923;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -107,7 +108,8 @@ main {
 }
 
 .cabecalho {
-    background-color: #ff4655;
+    /* background-color: #ff4655; */
+    background-color: #7042d8 ;
     margin: auto;
     display: flex;
     width: 100%;
@@ -142,7 +144,7 @@ p {
     margin: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: #ff4655;
+    background-color: #7042d8;
     border-radius: 7px;
     padding: 50px;
 }
@@ -168,7 +170,7 @@ hr {
 }
 
 footer{
-    background-color: #ff4655;
+    background-color: #7042d8;
     margin: auto;
     display: flex;
     width: 100%;
@@ -201,7 +203,8 @@ footer a{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #b1b8cc;
+    /* background-color: #b1b8cc; */
+    background-color: rgba(163, 125, 211, 0.9);
     min-width: 350px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
