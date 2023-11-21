@@ -10,18 +10,20 @@
 }
 
 body {
-  background-color: #1C1C1C;
+  /* background-color: #1C1C1C; */
+  background-color: #0e1923;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 label {
-  color: #ff4655;
+  /* color: #ff4655; */
+  color: #fff;
   padding-top: 13px;
   font-family: Valorant;
 }
 
 input {
-  background-color: #ff4655;
+  background-color: #7042d8;
   height: 30px;
   border-radius: 7px;
   padding-left: 3px;
@@ -34,7 +36,7 @@ input::placeholder {
 }
 
 button {
-  background-color: #ff4655;
+  background-color: #7042d8;
   padding: 10px 20px;
   border-radius: 7px;
   font-family: Valorant;
@@ -42,8 +44,9 @@ button {
 }
 
 #conta {
-  background-color: #1C1C1C;
-  color: #ff4655;
+  /* background-color: #1C1C1C; */
+  background-color: #0e1923;
+  color: #7042d8;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   border: none;
@@ -53,7 +56,8 @@ button {
 h1 {
   font-family: Valorant;
   text-align: center;
-  color: #ff4655;
+  /* color: #7042d8; */
+  color: #fff;
   margin-bottom: 10px;
   margin-top: 5%;
 }
@@ -73,7 +77,7 @@ main {
 }
 
 .cabecalho {
-  background-color: #ff4655;
+  background-color: #7042d8;
   margin: auto;
   display: flex;
   width: 100%;

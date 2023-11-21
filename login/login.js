@@ -46,6 +46,13 @@ $('#conta').mouseover(() => {
   $('#conta').css('color', '#ece8e1');
 });
 $('#conta').mouseout(() => {
-  $('#conta').css('color', '#ff4655');
+  $('#conta').css('color', '#7042d8');
+});
+
+$('#btn').mouseover(() => {
+  $('#btn').css('color', '#ece8e1');
+});
+$('#btn').mouseout(() => {
+  $('#btn').css('color', ' #1C1C1C');
 });
 });

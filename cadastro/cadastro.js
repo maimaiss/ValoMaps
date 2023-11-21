@@ -8,9 +8,16 @@ $(document).ready(() => {
     $('#conta').css('color', '#ece8e1');
   });
   $('#conta').mouseout(() => {
-    $('#conta').css('color', ' #ff4655');
+    $('#conta').css('color', ' #7042d8');
   });
+
+  $('#cadastrar').mouseover(() => {
+    $('#cadastrar').css('color', '#ece8e1');
   });
+  $('#cadastrar').mouseout(() => {
+    $('#cadastrar').css('color', ' #1C1C1C');
+  });
+});
 
 function cadastrar() {
   let guardaNome = document.getElementById('nome').value;
