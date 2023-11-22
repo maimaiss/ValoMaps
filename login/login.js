@@ -15,7 +15,6 @@ function login(){
         document.getElementById('alertaLogin').innerHTML = '';
       }, 3000);
     }else{
-        alert("Bem-vindo!")
         location.assign('../Home/home.html')
     }
 }

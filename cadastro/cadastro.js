@@ -36,7 +36,6 @@ function cadastrar() {
     if (procura_usuario(guardaNome) == -1) {
       usuarios.push(usuario);
       localStorage.setItem('cadastrados', JSON.stringify(usuarios));
-      alert('Cadastro realizado!');
       location.assign('../Home/home.html');
     } else {
       document.getElementById('alertaNome').innerHTML = 'O Nome de Usuário já está em uso! Tente outro nome';
