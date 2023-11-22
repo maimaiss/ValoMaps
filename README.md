@@ -28,7 +28,6 @@ Para ter acesso aos arquivos completos, mude para a branch _master_
 ### Sobre nós:
 - Informações sobre a equipe de desenvolvedores do projeto
 <img align="center" alt="Sobre nós" src="https://cdn.discordapp.com/attachments/1009179162570932335/1176652627547795556/image.png?ex=656fa627&is=655d3127&hm=2bf76e3efbfd837ef617388bb35583d696f03b0c7cb249a17964796623f37f1b&">
-<img align="center" alt="Sobre nós" src="https://cdn.discordapp.com/attachments/1009179162570932335/1176652682392502374/image.png?ex=656fa634&is=655d3134&hm=d2782c41f7073778d0a2a84644ad9e1cbe2a83d36737e91394469598a4646204&">
 
 ---
 ### Informações de uso da API
