@@ -4,8 +4,6 @@ Site sobre o jogo de fps Valorant, onde a função do site é descrever os mapas
 
 Você pode acessar o site completo por [este link](https://maimaiss.github.io/ValoMaps/)
 
-Para ter acesso aos arquivos completos, mude para a branch _master_
-
 ## Descrição Geral
 ### Página Inicial:
 - Introdução para o site, dando uma breve descrição sobre sua funcionalidade e dois botões que direcionam respectivamente para a tela de cadastro e login.
