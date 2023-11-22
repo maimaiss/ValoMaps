@@ -2,7 +2,7 @@
 
 Site sobre o jogo de fps Valorant, onde a função do site é descrever os mapas que existem no atual jogo, como também, colocar os agentes recomendados para cada mapa, suas funcionalides e habilidades.
 
-Você pode acessar o site completo pelo [GitBug](https://maimaiss.github.io/ValoMaps/) ou pelo [Vercel](https://valomaps.vercel.app/)
+Você pode acessar o site completo pelo [GitHug](https://maimaiss.github.io/ValoMaps/) ou pelo [Vercel](https://valomaps.vercel.app/)
 
 ## Descrição Geral
 ### Página Inicial:
