@@ -111,4 +111,5 @@ p {
   position: absolute;
   top: 60px;
   right: 0;
+  z-index: -1;
 }

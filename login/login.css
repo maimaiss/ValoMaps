@@ -39,6 +39,7 @@ button {
 #conta {
   /* background-color: #1C1C1C; */
   background-color: #0e1923;
+  /* background: none; */
   color: #7042d8;
   font-size: 15px;
   border: none;
@@ -103,6 +104,7 @@ p {
 
 #fade {
   height: 0px;
+  /* z-index: -1; */
 }
 
 #chamber {
@@ -110,4 +112,5 @@ p {
   top: 60px;
   right: 0;
   height: 0px;
+  z-index: -1;
 }
